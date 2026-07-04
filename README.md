@@ -95,31 +95,29 @@ The dashboard includes:
 - Forecast Graph
 
 ---
+## 📸 Project Screenshots
 
-## 📸 Screenshots
+### 🏠 Home Dashboard
 
-### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
----
-
-### EV Sales Trend
-
-![Trend](screenshots/trend.png)
+![Home Dashboard](screenshots/Home%20Dashboard.png)
 
 ---
 
-### Year-wise Sales
+### 📈 EV Sales Trend
 
-![Bar Chart](screenshots/bar_chart.png)
+![EV Sales Trend](screenshots/EV%20Sales%20Trend.png)
 
 ---
 
-### Forecast
+### 📊 Year-wise Sales
 
-![Forecast](screenshots/forecast.png)
+![Year-wise Sales](screenshots/Year-wise%20Sales.png)
 
+---
+
+### 🔮 Forecast Section
+
+![Forecast Section](screenshots/Forecast%20Section.png)
 ## 👨‍💻 Author
 
 **Sonu Parashuram Balagavi**
