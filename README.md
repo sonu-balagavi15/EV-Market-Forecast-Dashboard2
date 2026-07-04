@@ -96,6 +96,30 @@ The dashboard includes:
 
 ---
 
+## 📸 Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### EV Sales Trend
+
+![Trend](screenshots/trend.png)
+
+---
+
+### Year-wise Sales
+
+![Bar Chart](screenshots/bar_chart.png)
+
+---
+
+### Forecast
+
+![Forecast](screenshots/forecast.png)
+
 ## 👨‍💻 Author
 
 **Sonu Parashuram Balagavi**
