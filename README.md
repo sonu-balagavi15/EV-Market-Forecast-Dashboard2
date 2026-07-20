@@ -1,38 +1,56 @@
-# 🚗 EV Market Forecast Dashboard
+🚗 EV Market Forecast Dashboard
 
-## 📌 Project Overview
-
-The EV Market Forecast Dashboard is an interactive web application developed using **Python**, **Streamlit**, **Plotly**, and **Scikit-Learn**. It helps users analyze Electric Vehicle (EV) sales trends and predict future sales using a Machine Learning model.
+An interactive web application for analyzing and forecasting Electric Vehicle (EV) sales using Python, Streamlit, Plotly, Pandas, and Scikit-Learn.
 
 ---
 
-## ✨ Features
+🌐 Live Demo
 
-- 📊 Interactive EV sales dashboard
-- 🌍 Country-wise filtering
-- 📈 EV sales trend visualization
-- 📉 Year-wise bar chart
-- 🔮 5-Year EV sales forecasting using Linear Regression
-- 📥 Download forecast data as CSV
-- 💻 User-friendly interface
+🚀 Try the application here:
+
+Live Dashboard:
+https://ev-market-forecast-dashboard2-qmzqfzhsghpr5pqsm5twd9.streamlit.app/
+
+GitHub Repository:
+https://github.com/sonu-balagavi15/EV-Market-Forecast-Dashboard2
 
 ---
 
-## 🛠️ Technologies Used
+📌 Project Overview
+
+The EV Market Forecast Dashboard is an interactive data visualization and machine learning application that helps users analyze historical Electric Vehicle (EV) sales trends and forecast future sales.
+
+The application uses Linear Regression to predict EV sales for the next five years and provides interactive charts for better decision-making and data analysis.
+
+---
+
+✨ Features
+
+- 📊 Interactive EV Sales Dashboard
+- 🌍 Country-wise Filtering
+- 📈 EV Sales Trend Analysis
+- 📉 Year-wise Sales Comparison
+- 🔮 5-Year EV Sales Forecast using Linear Regression
+- 📥 Download Forecast Results as CSV
+- ⚡ Fast & Responsive Streamlit Interface
+- 📱 Clean and User-Friendly Design
+
+---
+
+🛠️ Technologies Used
 
 - Python
 - Streamlit
 - Pandas
-- Plotly
 - NumPy
+- Plotly
 - Scikit-Learn
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
-```
-EV-Market-Forecast-Dashboard/
+EV-Market-Forecast-Dashboard2/
 │
 ├── app.py
 ├── requirements.txt
@@ -40,90 +58,155 @@ EV-Market-Forecast-Dashboard/
 ├── .gitignore
 └── data/
     └── ev_sales.csv
-```
 
 ---
 
-## ▶️ How to Run
+▶️ Installation
 
-### 1. Install the required libraries
+1. Clone the repository
 
-```bash
+git clone https://github.com/sonu-balagavi15/EV-Market-Forecast-Dashboard2.git
+
+2. Navigate to the project directory
+
+cd EV-Market-Forecast-Dashboard2
+
+3. Install dependencies
+
 pip install -r requirements.txt
-```
 
-### 2. Run the application
+4. Run the application
 
-```bash
 streamlit run app.py
-```
 
-### 3. Open in your browser
+5. Open your browser
 
-```
 http://localhost:8501
-```
 
 ---
 
-## 📊 Dataset
+📊 Dataset
 
-The project uses a sample dataset containing EV sales data for:
+The project uses the ev_sales.csv dataset containing historical Electric Vehicle sales records.
 
-- India
-- USA
-- China
-- Germany
+The dataset is used to:
 
----
-
-## 🔮 Machine Learning Model
-
-The dashboard uses the **Linear Regression** algorithm from **Scikit-Learn** to predict EV sales for the next five years.
+- Analyze EV sales trends
+- Visualize country-wise sales
+- Predict future EV sales
+- Generate downloadable forecast reports
 
 ---
 
-## 📸 Dashboard
+🤖 Machine Learning Model
 
-The dashboard includes:
+Algorithm: Linear Regression
 
-- KPI Cards
-- Data Table
-- Line Chart
-- Bar Chart
-- Forecast Table
-- Forecast Graph
+Input Feature:
 
----
-## 📸 Project Screenshots
+- Year
 
-### 🏠 Home Dashboard
+Output:
 
-![Home Dashboard](screenshots/Home%20Dashboard.png)
+- Predicted EV Sales
+
+Forecast Period:
+
+- Next 5 Years
 
 ---
 
-### 📈 EV Sales Trend
+📈 Dashboard Features
 
-![EV Sales Trend](screenshots/EV%20Sales%20Trend.png)
+✔ Interactive Line Charts
 
----
+✔ Bar Charts
 
-### 📊 Year-wise Sales
+✔ Country-wise Filtering
 
-![Year-wise Sales](screenshots/Year-wise%20Sales.png)
+✔ Sales Forecast Graph
 
----
+✔ Forecast Data Table
 
-### 🔮 Forecast Section
-
-![Forecast Section](screenshots/Forecast%20Section.png)
-## 👨‍💻 Author
-
-**Sonu Parashuram Balagavi**
+✔ CSV Download Option
 
 ---
 
-## 📄 License
+📷 Dashboard Preview
 
-This project is created for educational and internship purposes.
+Add screenshots after uploading them to your repository.
+
+Example:
+
+screenshots/dashboard.png
+
+screenshots/forecast.png
+
+---
+
+📄 Requirements
+
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
+
+or install using
+
+pip install -r requirements.txt
+
+---
+
+🚀 Future Improvements
+
+- Deep Learning-based Forecasting
+- Real-time EV Market Data
+- More Interactive Filters
+- Export Charts as PDF/PNG
+- Dashboard Authentication
+- Dark Mode
+- Advanced Analytics
+
+---
+
+👩‍💻 Author
+
+Sonu Parashuram Balagavi
+
+🎓 B.E. Computer Science and Engineering
+
+💻 Python Developer
+
+📊 Data Analytics Enthusiast
+
+🤖 Machine Learning Learner
+
+GitHub:
+https://github.com/sonu-balagavi15
+
+---
+
+⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub.
+
+---
+
+📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+🙏 Acknowledgements
+
+Thanks to the open-source community and the developers of:
+
+- Streamlit
+- Plotly
+- Pandas
+- NumPy
+- Scikit-Learn
+
+for providing amazing tools that made this project possible.
